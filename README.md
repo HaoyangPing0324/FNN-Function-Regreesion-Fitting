@@ -16,7 +16,7 @@ $$
 ### 1、数据生成：
 - 在区间$[-6,6]$内随机生成 $N=200$ 个二维输入数据样本 $\boldsymbol{x}$ 。
 - 根据上述函数分别计算 $\boldsymbol{y}$ 。
-- 使用 `np.random.normal(0,std=***,size=***)` 给$\boldsymbol{y}$随机添加噪声，以模拟真实数据。
+- 使用 `np.random.normal(0,std=***,size=***)` 给 $\boldsymbol{y}$ 随机添加噪声，以模拟真实数据。
 - 将最终的数据制作成pytorch数据集，其中70%用于训练，30%用于验证。
 
 
